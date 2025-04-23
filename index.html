@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ielūgums uz dzimšanas dienas ballīti.">
+    <meta name="keywords" content="Dzimšanas diena, Paintball, Rullītis, Ielūgums">
+    <meta name="author" content="Tavs Vārds">
+    <title>Ielūgums uz Dzimšanas Dienu!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            line-height: 1.6;
+            background: linear-gradient(45deg, #333333, #000000);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #f4a261;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e76f51;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 100px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            color: #f4a261;
+        }
+
+        .info-box {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 30px;
+            color: white;
+        }
+
+        .info-box h2 {
+            color: #f4a261;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .info-box p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .image-comparison {
+            display: flex;
+            gap: 10px;
+            margin-top: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .image-comparison img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+            width: 48%;
+            filter: brightness(0.8);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #ffffff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div>
+            <h1>Ielūgums uz dzimšanas dienu!</h1>
+            <p>Svinības Paintball parkā "Rullītis"</p>
+            <a href="#details" class="btn">Uzzināt vairāk</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="details" class="info-box">
+            <h2>Svarīga informācija</h2>
+            <p><strong>Adrese:</strong> Aku Ceļš 1</p>
+            <p><strong>Telefona numurs:</strong> 26778217</p>
+            <p><strong>Datums un laiks:</strong> 10. maijs 2025 no plkst. 17:00 līdz 19:00</p>
+            <p><strong>Vieta:</strong> Paintball parks "Rullītis"</p>
+        </section>
+
+        <div class="image-comparison">
+            <img src="https://ganz-paintball.com/wp-content/uploads/2020/11/747a3085_1503833442_small-e1605517912310.jpg" alt="Rullītis 1">
+            <img src="https://dari.me/wp-content/uploads/2020/04/paintball-darimechti-4-600x450.jpg" alt="Rullītis 2">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dzimšanas dienas ielūgums. Visas tiesības aizsargātas.</p>
+    </footer>
+</body>
+
+</html>
